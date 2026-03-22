@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Menu Management | Y0 Restaurant</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#642600",
+              "surface-container-lowest": "#000000",
+              "error-container": "#b92902",
+              "on-primary-fixed": "#331f00",
+              "surface-tint": "#ffbd5c",
+              "on-tertiary-container": "#321000",
+              "secondary": "#e5e2e1",
+              "background": "#0e0e0e",
+              "on-surface-variant": "#adaaaa",
+              "on-error-container": "#ffd2c8",
+              "secondary-dim": "#d6d4d3",
+              "error": "#ff7351",
+              "inverse-on-surface": "#565555",
+              "on-surface": "#ffffff",
+              "tertiary-fixed": "#ff955e",
+              "on-secondary-fixed": "#403f3f",
+              "surface-container-low": "#131313",
+              "on-primary-container": "#503300",
+              "secondary-fixed-dim": "#d6d4d3",
+              "surface-variant": "#262626",
+              "tertiary": "#ff833f",
+              "on-tertiary-fixed": "#2f0e00",
+              "error-dim": "#d53d18",
+              "on-background": "#ffffff",
+              "secondary-container": "#474746",
+              "on-secondary-container": "#d2d0cf",
+              "secondary-fixed": "#e5e2e1",
+              "on-primary": "#5c3b00",
+              "primary-dim": "#ec9e00",
+              "surface-container": "#1a1a1a",
+              "tertiary-dim": "#ff7520",
+              "tertiary-container": "#fd6c00",
+              "surface-container-high": "#20201f",
+              "surface-dim": "#0e0e0e",
+              "primary": "#ffbd5c",
+              "primary-fixed-dim": "#ec9e00",
+              "inverse-surface": "#fcf9f8",
+              "outline": "#767575",
+              "primary-fixed": "#feaa00",
+              "surface-bright": "#2c2c2c",
+              "on-primary-fixed-variant": "#5b3b00",
+              "inverse-primary": "#835600",
+              "on-secondary": "#525151",
+              "surface-container-highest": "#262626",
+              "on-error": "#450900",
+              "tertiary-fixed-dim": "#ff7f36",
+              "primary-container": "#feaa00",
+              "on-tertiary": "#481900",
+              "outline-variant": "#484847",
+              "surface": "#0e0e0e",
+              "on-secondary-fixed-variant": "#5c5b5b"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Be Vietnam Pro"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #0e0e0e;
+            color: #ffffff;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background selection:bg-primary selection:text-on-primary-fixed">
+<!-- Desktop Navigation Drawer -->
+<aside class="hidden md:flex flex-col fixed left-0 top-0 h-full w-72 bg-[#1a1a1a]/70 backdrop-blur-xl border-r border-[#484847]/15 z-40 shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+<div class="px-8 py-10 flex flex-col gap-1">
+<span class="text-2xl font-black text-[#ffbd5c] tracking-tighter">Y0 Restaurant</span>
+<span class="text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">Floor Manager</span>
+</div>
+<nav class="flex-1 px-4 space-y-2">
+<a class="flex items-center gap-4 px-6 py-4 text-[#adaaaa] hover:text-[#ffbd5c] transition-colors font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="table_bar">table_bar</span>
+<span>Tables</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-4 bg-[#ffbd5c] text-[#0e0e0e] rounded-xl mx-2 font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold uppercase transform active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="restaurant_menu">restaurant_menu</span>
+<span>Menu</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-4 text-[#adaaaa] hover:text-[#ffbd5c] transition-colors font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="skillet">skillet</span>
+<span>Kitchen</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-4 text-[#adaaaa] hover:text-[#ffbd5c] transition-colors font-['Plus_Jakarta_Sans'] tracking-tight text-sm font-semibold uppercase" href="#">
+<span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
+<span>Invoices</span>
+</a>
+</nav>
+<div class="p-6 mb-4">
+<div class="bg-[#131313] p-4 rounded-2xl flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest overflow-hidden">
+<img alt="Manager Avatar" class="w-full h-full object-cover" data-alt="Close up portrait of a professional restaurant manager" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCRtWtKmhB2jvErtaObc3FEwR8kRmTJTkKEBDF0leyq3lJ_chy4-0zwtbDVF2hcLUGo96YTULYKwnssrhJYGo7t8mSjNJMy_lakduJ2579cC1WLQUVlcBNQBNJAxQJFQg3hbMnTVhcCzpKIemjF3jsAcVeyo0cZIUsjmrnTeJBWr2dPWmuqwhnMadRHyFi2XJTTJNQ5f6wDsiYDW_DOm2j-aAIFKDK_opHSQykMCJOU-pk1gYqtF2vSqVs_JPMuTL_VJ6TVOmGD_IU"/>
+</div>
+<div>
+<div class="text-sm font-bold">Y0 Restaurant</div>
+<div class="text-[10px] text-on-surface-variant">Floor Manager</div>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="md:ml-72 min-h-screen pb-32 md:pb-12">
+<!-- Top App Bar -->
+<header class="flex justify-between items-center px-6 md:px-12 py-6 w-full sticky top-0 bg-[#0e0e0e]/80 backdrop-blur-md z-50 border-b border-[#484847]/15">
+<div class="flex items-center gap-4">
+<button class="md:hidden hover:bg-[#1a1a1a] rounded-full p-2 text-[#ffbd5c]">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="font-['Plus_Jakarta_Sans'] font-black text-[#ffbd5c] tracking-tight text-xl">Menu Management</h1>
+</div>
+<div class="flex items-center gap-3">
+<button class="hover:bg-[#1a1a1a] rounded-full p-2 text-[#ffbd5c]">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+<button class="hover:bg-[#1a1a1a] rounded-full p-2 text-[#adaaaa]">
+<span class="material-symbols-outlined" data-icon="filter_list">filter_list</span>
+</button>
+</div>
+</header>
+<!-- Category Horizontal Slider -->
+<section class="px-6 md:px-12 mt-8 overflow-x-auto whitespace-nowrap scrollbar-hide flex gap-4 pb-4">
+<button class="px-8 py-3 rounded-full bg-primary text-on-primary-fixed font-bold text-sm tracking-wide">
+                All Items
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container-highest text-on-surface-variant font-bold text-sm tracking-wide hover:bg-surface-bright transition-colors">
+                Cold Drinks
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container-highest text-on-surface-variant font-bold text-sm tracking-wide hover:bg-surface-bright transition-colors">
+                Pizza
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container-highest text-on-surface-variant font-bold text-sm tracking-wide hover:bg-surface-bright transition-colors">
+                Burger
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container-highest text-on-surface-variant font-bold text-sm tracking-wide hover:bg-surface-bright transition-colors">
+                Desserts
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container-highest text-on-surface-variant font-bold text-sm tracking-wide hover:bg-surface-bright transition-colors">
+                Starters
+            </button>
+</section>
+<!-- Menu Grid -->
+<section class="px-6 md:px-12 mt-8">
+<div class="editorial-grid">
+<!-- Menu Item Card 1 -->
+<div class="group bg-surface-container-low rounded-[24px] overflow-hidden transition-all duration-300 hover:translate-y-[-4px]">
+<div class="h-48 overflow-hidden relative">
+<img alt="Gourmet Pizza" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Aerial view of a fresh gourmet pizza with basil" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA02OVbeZymWws5TWB2yUqk0ek7peYqr_EVG81xDyEWVvIWoFDVjQkNyi1ZqEFMjcsS2chkIAYuexSjj7k0vV7LEU7FmEH0DRWRiRy3swpTIz5_Ijcql2-5eqqQ1xBwrdgMOcLJijkAcsIpJEwowTh9blbFa-hjYVbb74kzCDOk4deKGEsp8UyHisxz-WCAMo4lJl1Ee0pNMxY3WKBMETIEk6AG09SBvMz08v7WEG4H_mAZBPaBHZknJ8tn3SwqkCjpbZxzqbPkzgSy"/>
+<div class="absolute top-4 right-4 bg-primary text-on-primary-fixed text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest">
+                            Best Seller
+                        </div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-lg">Truffle Margherita</h3>
+<span class="font-headline font-extrabold text-primary">$24.00</span>
+</div>
+<p class="text-on-surface-variant text-sm body-md leading-relaxed mb-6">
+                            Fresh mozzarella, black truffle oil, organic tomato sauce, and basil leaves.
+                        </p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant">Visible</span>
+</div>
+<div class="flex gap-2">
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="edit">edit</span>
+</button>
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-error transition-colors">
+<span class="material-symbols-outlined" data-icon="delete">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Menu Item Card 2 -->
+<div class="group bg-surface-container-low rounded-[24px] overflow-hidden transition-all duration-300 hover:translate-y-[-4px]">
+<div class="h-48 overflow-hidden relative">
+<img alt="Wagyu Burger" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Thick Wagyu beef burger with melting cheese" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6B0Z7ujdbZZc-uPerT-U8ZQyfumJrA4bHQO2D78JvjuHJJzx8Qtbs9s-IRwe9mm1-dqKw5Pu2CtoetNmxJ1-9gjCfb7R1ySEnjdvxJE2mAYEDH81RIopvT1pynafH_pcxUv4kIZnnNWiF3U6tVVitPVo7Yzg-TU-WbSL_kQLf0ac7RgMmMAotVOX4w-M3LRbPeh5LbJCnlt94fXvtl7gLdARooYdopmOtoMKUfBOz7dnLvr6phFwNwQhVAVBi3LzdRwlER-Bu71Kd"/>
+<div class="absolute inset-0 bg-black/40 backdrop-grayscale flex items-center justify-center">
+<span class="bg-surface-container-highest px-4 py-2 rounded-full text-[10px] font-black uppercase tracking-widest text-white">Hidden from Menu</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2 opacity-50">
+<h3 class="font-headline font-bold text-lg">Obsidian Wagyu</h3>
+<span class="font-headline font-extrabold text-primary">$32.00</span>
+</div>
+<p class="text-on-surface-variant text-sm body-md leading-relaxed mb-6 opacity-50">
+                            Japanese Wagyu, charcoal brioche, aged cheddar, and house-made umami jam.
+                        </p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+<span class="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant">Hidden</span>
+</div>
+<div class="flex gap-2">
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="visibility">visibility</span>
+</button>
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="edit">edit</span>
+</button>
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-error transition-colors">
+<span class="material-symbols-outlined" data-icon="delete">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Menu Item Card 3 -->
+<div class="group bg-surface-container-low rounded-[24px] overflow-hidden transition-all duration-300 hover:translate-y-[-4px]">
+<div class="h-48 overflow-hidden relative">
+<img alt="Espresso Tonic" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern cocktail glass with espresso and tonic water" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcqq9ArJQI6Jgy2eHyWqdEmCDiXL5Mw1XReHz1hAP8YuMsFW68rjTx54_uZ_iP95zAUWVfdLRg5qeh7eRyGcK43tF0QDmTgXc_0S5E_IstIuZWuqTktBoi4GzCE2Gt43k18F0HV4HvWAUula5orCHhfpsaWDxdFtEvzXd6qvJ8Bs--1kwHR0QJOLxPwEdU2XN7wTYa3xacy_9u9QzJDwY8MOhQW4xpQtxo_gIGBS1xWYnixgmcWFDXbbIqe9lUwy_mqqo8XCIqoeXp"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-lg">Citrus Espresso Tonic</h3>
+<span class="font-headline font-extrabold text-primary">$9.50</span>
+</div>
+<p class="text-on-surface-variant text-sm body-md leading-relaxed mb-6">
+                            Double shot specialty espresso, craft tonic, grapefruit zest, and rosemary.
+                        </p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant">Visible</span>
+</div>
+<div class="flex gap-2">
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="edit">edit</span>
+</button>
+<button class="p-2 bg-surface-container-highest rounded-xl text-on-surface-variant hover:text-error transition-colors">
+<span class="material-symbols-outlined" data-icon="delete">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Menu Item Card 4 (Draft State/Asymmetric) -->
+<div class="group bg-surface-container-low/50 border-2 border-dashed border-outline-variant/30 rounded-[24px] flex flex-col items-center justify-center p-12 text-center">
+<div class="w-16 h-16 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant mb-4">
+<span class="material-symbols-outlined text-4xl" data-icon="restaurant">restaurant</span>
+</div>
+<h3 class="font-headline font-bold text-lg text-on-surface-variant">Drafting New Ideas?</h3>
+<p class="text-on-surface-variant text-xs mb-6 max-w-[200px]">Keep your menu seasonal and fresh by adding new items weekly.</p>
+<button class="px-6 py-2 bg-surface-container-highest rounded-full text-xs font-bold uppercase tracking-widest hover:bg-primary hover:text-on-primary-fixed transition-all">
+                        Quick Add
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-28 md:bottom-12 right-6 md:right-12 w-16 h-16 bg-gradient-to-br from-primary to-primary-container text-on-primary-fixed rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.4)] flex items-center justify-center active:scale-90 transition-transform z-50">
+<span class="material-symbols-outlined text-3xl font-bold" data-icon="add">add</span>
+</button>
+<!-- Bottom Navigation Bar (Mobile Only) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full bg-[#1a1a1a]/70 backdrop-blur-2xl flex justify-around items-center px-4 pb-6 pt-3 border-t border-[#484847]/10 z-50 shadow-[0_-10px_30px_rgba(0,0,0,0.5)]">
+<a class="flex flex-col items-center justify-center text-[#adaaaa] px-4 py-2 hover:text-[#ffbd5c] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="grid_view">grid_view</span>
+<span class="text-[10px] font-bold uppercase tracking-widest font-['Plus_Jakarta_Sans'] mt-1">Tables</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#ffbd5c] bg-[#ffbd5c]/10 rounded-2xl px-4 py-2" href="#">
+<span class="material-symbols-outlined" data-icon="restaurant" style="font-variation-settings: 'FILL' 1;">restaurant</span>
+<span class="text-[10px] font-bold uppercase tracking-widest font-['Plus_Jakarta_Sans'] mt-1">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#adaaaa] px-4 py-2 hover:text-[#ffbd5c] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="countertops">countertops</span>
+<span class="text-[10px] font-bold uppercase tracking-widest font-['Plus_Jakarta_Sans'] mt-1">Kitchen</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#adaaaa] px-4 py-2 hover:text-[#ffbd5c] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="list_alt">list_alt</span>
+<span class="text-[10px] font-bold uppercase tracking-widest font-['Plus_Jakarta_Sans'] mt-1">Orders</span>
+</a>
+</nav>
+<!-- Popup Dialog: Add Item (Hidden by default, used for structure visualization) -->
+<div class="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-center justify-center p-6 hidden">
+<div class="bg-surface-container rounded-[32px] w-full max-w-2xl shadow-2xl overflow-hidden">
+<div class="p-8 border-b border-outline-variant/15 flex justify-between items-center">
+<div>
+<h2 class="text-2xl font-black font-headline tracking-tight text-primary">New Dish Profile</h2>
+<p class="text-on-surface-variant text-sm">Add a new masterpiece to your digital menu.</p>
+</div>
+<button class="p-2 hover:bg-surface-container-highest rounded-full transition-colors">
+<span class="material-symbols-outlined" data-icon="close">close</span>
+</button>
+</div>
+<div class="p-8 space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Image Upload Simulation -->
+<div class="h-full min-h-[200px] bg-surface-container-highest rounded-2xl border-2 border-dashed border-outline-variant/30 flex flex-col items-center justify-center text-on-surface-variant hover:border-primary/50 transition-colors cursor-pointer group">
+<span class="material-symbols-outlined text-4xl mb-2 group-hover:scale-110 transition-transform" data-icon="add_a_photo">add_a_photo</span>
+<span class="text-xs font-bold uppercase tracking-widest">Upload Image</span>
+</div>
+<!-- Form Inputs -->
+<div class="space-y-6">
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-on-surface-variant px-1">Dish Name</label>
+<input class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary/40 text-sm" placeholder="e.g. Midnight Pasta" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-on-surface-variant px-1">Price ($)</label>
+<input class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary/40 text-sm" placeholder="0.00" type="number"/>
+</div>
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-on-surface-variant px-1">Category</label>
+<select class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary/40 text-sm appearance-none">
+<option>Cold Drinks</option>
+<option>Pizza</option>
+<option>Burger</option>
+</select>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-[10px] font-black uppercase tracking-widest text-on-surface-variant px-1">Description</label>
+<textarea class="w-full bg-surface-container-highest border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary/40 text-sm resize-none" placeholder="Briefly describe the ingredients..." rows="3"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="p-8 bg-surface-container-low flex gap-4 justify-end">
+<button class="px-8 py-3 rounded-xl bg-surface-container-highest text-on-surface font-bold text-sm tracking-wide">
+                    Save as Draft
+                </button>
+<button class="px-8 py-3 rounded-xl bg-gradient-to-r from-primary to-primary-container text-on-primary-fixed font-bold text-sm tracking-wide shadow-lg shadow-primary/20">
+                    Publish Item
+                </button>
+</div>
+</div>
+</div>
+</body></html>

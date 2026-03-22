@@ -1,0 +1,1111 @@
+{
+  "appTitle": "Y0 Restaurant",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  
+  "username": "Username",
+  "@username": {
+    "description": "Username input label"
+  },
+  
+  "password": "Password",
+  "@password": {
+    "description": "Password input label"
+  },
+  
+  "tables": "Tables",
+  "@tables": {
+    "description": "Tables section title"
+  },
+  
+  "menu": "Menu",
+  "@menu": {
+    "description": "Menu section title"
+  },
+  
+  "kitchen": "Kitchen",
+  "@kitchen": {
+    "description": "Kitchen section title"
+  },
+  
+  "invoices": "Invoices",
+  "@invoices": {
+    "description": "Invoices section title"
+  },
+  
+  "orders": "Orders",
+  "@orders": {
+    "description": "Orders section title"
+  },
+  
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings section title"
+  },
+  
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button text"
+  },
+  
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading indicator text"
+  },
+  
+  "error": "Error",
+  "@error": {
+    "description": "Error title"
+  },
+  
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button text"
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button text"
+  },
+  
+  "add": "Add",
+  "@add": {
+    "description": "Add button text"
+  },
+  
+  "search": "Search",
+  "@search": {
+    "description": "Search placeholder text"
+  },
+  
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter button text"
+  },
+  
+  "sort": "Sort",
+  "@sort": {
+    "description": "Sort button text"
+  },
+  
+  "total": "Total",
+  "@total": {
+    "description": "Total label"
+  },
+  
+  "subtotal": "Subtotal",
+  "@subtotal": {
+    "description": "Subtotal label"
+  },
+  
+  "tax": "Tax",
+  "@tax": {
+    "description": "Tax label"
+  },
+  
+  "discount": "Discount",
+  "@discount": {
+    "description": "Discount label"
+  },
+  
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Quantity label"
+  },
+  
+  "price": "Price",
+  "@price": {
+    "description": "Price label"
+  },
+  
+  "name": "Name",
+  "@name": {
+    "description": "Name label"
+  },
+  
+  "email": "Email",
+  "@email": {
+    "description": "Email label"
+  },
+  
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone label"
+  },
+  
+  "address": "Address",
+  "@address": {
+    "description": "Address label"
+  },
+  
+  "date": "Date",
+  "@date": {
+    "description": "Date label"
+  },
+  
+  "time": "Time",
+  "@time": {
+    "description": "Time label"
+  },
+  
+  "status": "Status",
+  "@status": {
+    "description": "Status label"
+  },
+  
+  "active": "Active",
+  "@active": {
+    "description": "Active status"
+  },
+  
+  "inactive": "Inactive",
+  "@inactive": {
+    "description": "Inactive status"
+  },
+  
+  "pending": "Pending",
+  "@pending": {
+    "description": "Pending status"
+  },
+  
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed status"
+  },
+  
+  "cancelled": "Cancelled",
+  "@cancelled": {
+    "description": "Cancelled status"
+  },
+  
+  "available": "Available",
+  "@available": {
+    "description": "Available status"
+  },
+  
+  "unavailable": "Unavailable",
+  "@unavailable": {
+    "description": "Unavailable status"
+  },
+  
+  "yes": "Yes",
+  "@yes": {
+    "description": "Yes option"
+  },
+  
+  "no": "No",
+  "@no": {
+    "description": "No option"
+  },
+  
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button text"
+  },
+  
+  "close": "Close",
+  "@close": {
+    "description": "Close button text"
+  },
+  
+  "back": "Back",
+  "@back": {
+    "description": "Back button text"
+  },
+  
+  "next": "Next",
+  "@next": {
+    "description": "Next button text"
+  },
+  
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous button text"
+  },
+  
+  "first": "First",
+  "@first": {
+    "description": "First page text"
+  },
+  
+  "last": "Last",
+  "@last": {
+    "description": "Last page text"
+  },
+  
+  "page": "Page",
+  "@page": {
+    "description": "Page label"
+  },
+  
+  "of": "of",
+  "@of": {
+    "description": "Page indicator separator"
+  },
+  
+  "items": "Items",
+  "@items": {
+    "description": "Items count label"
+  },
+  
+  "item": "Item",
+  "@item": {
+    "description": "Single item label"
+  },
+  
+  "noDataFound": "No data found",
+  "@noDataFound": {
+    "description": "Empty state message"
+  },
+  
+  "noResultsFound": "No results found",
+  "@noResultsFound": {
+    "description": "Search empty state message"
+  },
+  
+  "tryAgain": "Try again",
+  "@tryAgain": {
+    "description": "Try again button text"
+  },
+  
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button text"
+  },
+  
+  "download": "Download",
+  "@download": {
+    "description": "Download button text"
+  },
+  
+  "upload": "Upload",
+  "@upload": {
+    "description": "Upload button text"
+  },
+  
+  "print": "Print",
+  "@print": {
+    "description": "Print button text"
+  },
+  
+  "share": "Share",
+  "@share": {
+    "description": "Share button text"
+  },
+  
+  "copy": "Copy",
+  "@copy": {
+    "description": "Copy button text"
+  },
+  
+  "paste": "Paste",
+  "@paste": {
+    "description": "Paste button text"
+  },
+  
+  "select": "Select",
+  "@select": {
+    "description": "Select button text"
+  },
+  
+  "selectAll": "Select All",
+  "@selectAll": {
+    "description": "Select All button text"
+  },
+  
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear button text"
+  },
+  
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset button text"
+  },
+  
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply button text"
+  },
+  
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit button text"
+  },
+  
+  "update": "Update",
+  "@update": {
+    "description": "Update button text"
+  },
+  
+  "create": "Create",
+  "@create": {
+    "description": "Create button text"
+  },
+  
+  "view": "View",
+  "@view": {
+    "description": "View button text"
+  },
+  
+  "details": "Details",
+  "@details": {
+    "description": "Details button text"
+  },
+  
+  "more": "More",
+  "@more": {
+    "description": "More options button text"
+  },
+  
+  "less": "Less",
+  "@less": {
+    "description": "Less options button text"
+  },
+  
+  "expand": "Expand",
+  "@expand": {
+    "description": "Expand button text"
+  },
+  
+  "collapse": "Collapse",
+  "@collapse": {
+    "description": "Collapse button text"
+  },
+  
+  "open": "Open",
+  "@open": {
+    "description": "Open button text"
+  },
+  
+  "close": "Close",
+  "@close": {
+    "description": "Close button text"
+  },
+  
+  "start": "Start",
+  "@start": {
+    "description": "Start button text"
+  },
+  
+  "stop": "Stop",
+  "@stop": {
+    "description": "Stop button text"
+  },
+  
+  "pause": "Pause",
+  "@pause": {
+    "description": "Pause button text"
+  },
+  
+  "resume": "Resume",
+  "@resume": {
+    "description": "Resume button text"
+  },
+  
+  "continueAction": "Continue",
+  "@continueAction": {
+    "description": "Continue button text"
+  },
+  
+  "finish": "Finish",
+  "@finish": {
+    "description": "Finish button text"
+  },
+  
+  "complete": "Complete",
+  "@complete": {
+    "description": "Complete button text"
+  },
+  
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip button text"
+  },
+  
+  "ignore": "Ignore",
+  "@ignore": {
+    "description": "Ignore button text"
+  },
+  
+  "accept": "Accept",
+  "@accept": {
+    "description": "Accept button text"
+  },
+  
+  "reject": "Reject",
+  "@reject": {
+    "description": "Reject button text"
+  },
+  
+  "approve": "Approve",
+  "@approve": {
+    "description": "Approve button text"
+  },
+  
+  "deny": "Deny",
+  "@deny": {
+    "description": "Deny button text"
+  },
+  
+  "allow": "Allow",
+  "@allow": {
+    "description": "Allow button text"
+  },
+  
+  "block": "Block",
+  "@block": {
+    "description": "Block button text"
+  },
+  
+  "enable": "Enable",
+  "@enable": {
+    "description": "Enable button text"
+  },
+  
+  "disable": "Disable",
+  "@disable": {
+    "description": "Disable button text"
+  },
+  
+  "show": "Show",
+  "@show": {
+    "description": "Show button text"
+  },
+  
+  "hide": "Hide",
+  "@hide": {
+    "description": "Hide button text"
+  },
+  
+  "visible": "Visible",
+  "@visible": {
+    "description": "Visible status"
+  },
+  
+  "hidden": "Hidden",
+  "@hidden": {
+    "description": "Hidden status"
+  },
+  
+  "public": "Public",
+  "@public": {
+    "description": "Public status"
+  },
+  
+  "private": "Private",
+  "@private": {
+    "description": "Private status"
+  },
+  
+  "internal": "Internal",
+  "@internal": {
+    "description": "Internal status"
+  },
+  
+  "external": "External",
+  "@external": {
+    "description": "External status"
+  },
+  
+  "local": "Local",
+  "@local": {
+    "description": "Local status"
+  },
+  
+  "remote": "Remote",
+  "@remote": {
+    "description": "Remote status"
+  },
+  
+  "online": "Online",
+  "@online": {
+    "description": "Online status"
+  },
+  
+  "offline": "Offline",
+  "@offline": {
+    "description": "Offline status"
+  },
+  
+  "connected": "Connected",
+  "@connected": {
+    "description": "Connected status"
+  },
+  
+  "disconnected": "Disconnected",
+  "@disconnected": {
+    "description": "Disconnected status"
+  },
+  
+  "syncing": "Syncing",
+  "@syncing": {
+    "description": "Syncing status"
+  },
+  
+  "synced": "Synced",
+  "@synced": {
+    "description": "Synced status"
+  },
+  
+  "unsynced": "Unsynced",
+  "@unsynced": {
+    "description": "Unsynced status"
+  },
+  
+  "draft": "Draft",
+  "@draft": {
+    "description": "Draft status"
+  },
+  
+  "published": "Published",
+  "@published": {
+    "description": "Published status"
+  },
+  
+  "archived": "Archived",
+  "@archived": {
+    "description": "Archived status"
+  },
+  
+  "deleted": "Deleted",
+  "@deleted": {
+    "description": "Deleted status"
+  },
+  
+  "restored": "Restored",
+  "@restored": {
+    "description": "Restored status"
+  },
+  
+  "imported": "Imported",
+  "@imported": {
+    "description": "Imported status"
+  },
+  
+  "exported": "Exported",
+  "@exported": {
+    "description": "Exported status"
+  },
+  
+  "importing": "Importing",
+  "@importing": {
+    "description": "Importing status"
+  },
+  
+  "exporting": "Exporting",
+  "@exporting": {
+    "description": "Exporting status"
+  },
+  
+  "processing": "Processing",
+  "@processing": {
+    "description": "Processing status"
+  },
+  
+  "processed": "Processed",
+  "@processed": {
+    "description": "Processed status"
+  },
+  
+  "failed": "Failed",
+  "@failed": {
+    "description": "Failed status"
+  },
+  
+  "success": "Success",
+  "@success": {
+    "description": "Success status"
+  },
+  
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning status"
+  },
+  
+  "info": "Info",
+  "@info": {
+    "description": "Info status"
+  },
+  
+  "debug": "Debug",
+  "@debug": {
+    "description": "Debug status"
+  },
+  
+  "trace": "Trace",
+  "@trace": {
+    "description": "Trace status"
+  },
+  
+  "critical": "Critical",
+  "@critical": {
+    "description": "Critical status"
+  },
+  
+  "high": "High",
+  "@high": {
+    "description": "High priority"
+  },
+  
+  "medium": "Medium",
+  "@medium": {
+    "description": "Medium priority"
+  },
+  
+  "low": "Low",
+  "@low": {
+    "description": "Low priority"
+  },
+  
+  "normal": "Normal",
+  "@normal": {
+    "description": "Normal priority"
+  },
+  
+  "urgent": "Urgent",
+  "@urgent": {
+    "description": "Urgent priority"
+  },
+  
+  "important": "Important",
+  "@important": {
+    "description": "Important priority"
+  },
+  
+  "optional": "Optional",
+  "@optional": {
+    "description": "Optional priority"
+  },
+  
+  "required": "Required",
+  "@required": {
+    "description": "Required priority"
+  },
+  
+  "mandatory": "Mandatory",
+  "@mandatory": {
+    "description": "Mandatory priority"
+  },
+  
+  "recommended": "Recommended",
+  "@recommended": {
+    "description": "Recommended priority"
+  },
+  
+  "suggested": "Suggested",
+  "@suggested": {
+    "description": "Suggested priority"
+  },
+  
+  "defaultOption": "Default",
+  "@defaultOption": {
+    "description": "Default option"
+  },
+  
+  "custom": "Custom",
+  "@custom": {
+    "description": "Custom option"
+  },
+  
+  "other": "Other",
+  "@other": {
+    "description": "Other option"
+  },
+  
+  "none": "None",
+  "@none": {
+    "description": "None option"
+  },
+  
+  "all": "All",
+  "@all": {
+    "description": "All option"
+  },
+  
+  "any": "Any",
+  "@any": {
+    "description": "Any option"
+  },
+  
+  "some": "Some",
+  "@some": {
+    "description": "Some option"
+  },
+  
+  "many": "Many",
+  "@many": {
+    "description": "Many option"
+  },
+  
+  "few": "Few",
+  "@few": {
+    "description": "Few option"
+  },
+  
+  "several": "Several",
+  "@several": {
+    "description": "Several option"
+  },
+  
+  "multiple": "Multiple",
+  "@multiple": {
+    "description": "Multiple option"
+  },
+  
+  "single": "Single",
+  "@single": {
+    "description": "Single option"
+  },
+  
+  "double": "Double",
+  "@double": {
+    "description": "Double option"
+  },
+  
+  "triple": "Triple",
+  "@triple": {
+    "description": "Triple option"
+  },
+  
+  "today": "Today",
+  "@today": {
+    "description": "Today label"
+  },
+  
+  "yesterday": "Yesterday",
+  "@yesterday": {
+    "description": "Yesterday label"
+  },
+  
+  "tomorrow": "Tomorrow",
+  "@tomorrow": {
+    "description": "Tomorrow label"
+  },
+  
+  "thisWeek": "This Week",
+  "@thisWeek": {
+    "description": "This Week label"
+  },
+  
+  "lastWeek": "Last Week",
+  "@lastWeek": {
+    "description": "Last Week label"
+  },
+  
+  "nextWeek": "Next Week",
+  "@nextWeek": {
+    "description": "Next Week label"
+  },
+  
+  "thisMonth": "This Month",
+  "@thisMonth": {
+    "description": "This Month label"
+  },
+  
+  "lastMonth": "Last Month",
+  "@lastMonth": {
+    "description": "Last Month label"
+  },
+  
+  "nextMonth": "Next Month",
+  "@nextMonth": {
+    "description": "Next Month label"
+  },
+  
+  "thisYear": "This Year",
+  "@thisYear": {
+    "description": "This Year label"
+  },
+  
+  "lastYear": "Last Year",
+  "@lastYear": {
+    "description": "Last Year label"
+  },
+  
+  "nextYear": "Next Year",
+  "@nextYear": {
+    "description": "Next Year label"
+  },
+  
+  "now": "Now",
+  "@now": {
+    "description": "Now label"
+  },
+  
+  "later": "Later",
+  "@later": {
+    "description": "Later label"
+  },
+  
+  "soon": "Soon",
+  "@soon": {
+    "description": "Soon label"
+  },
+  
+  "never": "Never",
+  "@never": {
+    "description": "Never label"
+  },
+  
+  "always": "Always",
+  "@always": {
+    "description": "Always label"
+  },
+  
+  "sometimes": "Sometimes",
+  "@sometimes": {
+    "description": "Sometimes label"
+  },
+  
+  "rarely": "Rarely",
+  "@rarely": {
+    "description": "Rarely label"
+  },
+  
+  "often": "Often",
+  "@often": {
+    "description": "Often label"
+  },
+  
+  "frequently": "Frequently",
+  "@frequently": {
+    "description": "Frequently label"
+  },
+  
+  "occasionally": "Occasionally",
+  "@occasionally": {
+    "description": "Occasionally label"
+  },
+  
+  "daily": "Daily",
+  "@daily": {
+    "description": "Daily label"
+  },
+  
+  "weekly": "Weekly",
+  "@weekly": {
+    "description": "Weekly label"
+  },
+  
+  "monthly": "Monthly",
+  "@monthly": {
+    "description": "Monthly label"
+  },
+  
+  "yearly": "Yearly",
+  "@yearly": {
+    "description": "Yearly label"
+  },
+  
+  "hourly": "Hourly",
+  "@hourly": {
+    "description": "Hourly label"
+  },
+  
+  "minute": "Minute",
+  "@minute": {
+    "description": "Minute label"
+  },
+  
+  "hour": "Hour",
+  "@hour": {
+    "description": "Hour label"
+  },
+  
+  "day": "Day",
+  "@day": {
+    "description": "Day label"
+  },
+  
+  "week": "Week",
+  "@week": {
+    "description": "Week label"
+  },
+  
+  "month": "Month",
+  "@month": {
+    "description": "Month label"
+  },
+  
+  "year": "Year",
+  "@year": {
+    "description": "Year label"
+  },
+  
+  "second": "Second",
+  "@second": {
+    "description": "Second label"
+  },
+  
+  "milliseconds": "Milliseconds",
+  "@milliseconds": {
+    "description": "Milliseconds label"
+  },
+  
+  "seconds": "Seconds",
+  "@seconds": {
+    "description": "Seconds label"
+  },
+  
+  "minutes": "Minutes",
+  "@minutes": {
+    "description": "Minutes label"
+  },
+  
+  "hours": "Hours",
+  "@hours": {
+    "description": "Hours label"
+  },
+  
+  "days": "Days",
+  "@days": {
+    "description": "Days label"
+  },
+  
+  "weeks": "Weeks",
+  "@weeks": {
+    "description": "Weeks label"
+  },
+  
+  "months": "Months",
+  "@months": {
+    "description": "Months label"
+  },
+  
+  "years": "Years",
+  "@years": {
+    "description": "Years label"
+  },
+  
+  "ago": "ago",
+  "@ago": {
+    "description": "Time ago suffix"
+  },
+  
+  "remaining": "remaining",
+  "@remaining": {
+    "description": "Time remaining suffix"
+  },
+  
+  "left": "left",
+  "@left": {
+    "description": "Time left suffix"
+  },
+  
+  "overdue": "overdue",
+  "@overdue": {
+    "description": "Overdue status"
+  },
+  
+  "upcoming": "upcoming",
+  "@upcoming": {
+    "description": "Upcoming status"
+  },
+  
+  "past": "past",
+  "@past": {
+    "description": "Past status"
+  },
+  
+  "future": "future",
+  "@future": {
+    "description": "Future status"
+  },
+  
+  "current": "current",
+  "@current": {
+    "description": "Current status"
+  },
+  
+  "previous": "previous",
+  "@previous": {
+    "description": "Previous status"
+  },
+  
+  "next": "next",
+  "@next": {
+    "description": "Next status"
+  },
+  
+  "first": "first",
+  "@first": {
+    "description": "First position"
+  },
+  
+  "second": "second",
+  "@second": {
+    "description": "Second position"
+  },
+  
+  "third": "third",
+  "@third": {
+    "description": "Third position"
+  },
+  
+  "fourth": "fourth",
+  "@fourth": {
+    "description": "Fourth position"
+  },
+  
+  "fifth": "fifth",
+  "@fifth": {
+    "description": "Fifth position"
+  },
+  
+  "sixth": "sixth",
+  "@sixth": {
+    "description": "Sixth position"
+  },
+  
+  "seventh": "seventh",
+  "@seventh": {
+    "description": "Seventh position"
+  },
+  
+  "eighth": "eighth",
+  "@eighth": {
+    "description": "Eighth position"
+  },
+  
+  "ninth": "ninth",
+  "@ninth": {
+    "description": "Ninth position"
+  },
+  
+  "tenth": "tenth",
+  "@tenth": {
+    "description": "Tenth position"
+  }
+}

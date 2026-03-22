@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Luminous Atrium - Login</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "error": "#ba1a1a",
+                        "primary-container": "#ffab00",
+                        "on-primary-fixed": "#291800",
+                        "surface-container-low": "#f3f3f3",
+                        "on-background": "#1a1c1c",
+                        "surface-container-high": "#e8e8e8",
+                        "tertiary": "#006781",
+                        "on-tertiary-fixed": "#001f29",
+                        "on-tertiary": "#ffffff",
+                        "primary-fixed": "#ffddb3",
+                        "outline-variant": "#d7c3ac",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#00ccfe",
+                        "on-primary-container": "#694400",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed-dim": "#5bd4ff",
+                        "secondary-fixed-dim": "#eebe7e",
+                        "outline": "#857460",
+                        "surface-variant": "#e2e2e2",
+                        "background": "#f9f9f9",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e2e2e2",
+                        "surface-bright": "#f9f9f9",
+                        "on-surface-variant": "#524433",
+                        "on-secondary-container": "#78551f",
+                        "secondary": "#7b5821",
+                        "on-surface": "#1a1c1c",
+                        "surface-dim": "#dadada",
+                        "inverse-surface": "#2f3131",
+                        "primary": "#825500",
+                        "secondary-container": "#fdcc8b",
+                        "on-tertiary-fixed-variant": "#004d62",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#005269",
+                        "inverse-on-surface": "#f0f1f1",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed-variant": "#60400b",
+                        "inverse-primary": "#ffb950",
+                        "on-primary-fixed-variant": "#624000",
+                        "tertiary-fixed": "#baeaff",
+                        "surface-container": "#eeeeee",
+                        "primary-fixed-dim": "#ffb950",
+                        "surface-tint": "#825500",
+                        "surface": "#f9f9f9",
+                        "on-secondary-fixed": "#291800",
+                        "error-container": "#ffdad6",
+                        "secondary-fixed": "#ffddb3"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Plus Jakarta Sans"],
+                        "label": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .signature-gradient {
+            background: linear-gradient(135deg, #825500 0%, #FFAB00 100%);
+        }
+        .signature-gradient-hover:hover {
+            background: linear-gradient(135deg, #FFAB00 0%, #825500 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background font-body text-on-background min-h-screen flex items-center justify-center overflow-hidden">
+<!-- Asymmetric Background Elements (Tonal Layering) -->
+<div class="absolute top-0 right-0 w-1/2 h-full bg-surface-container-low -z-10 skew-x-[-6deg] origin-top"></div>
+<div class="absolute top-20 left-10 w-64 h-64 bg-primary-fixed opacity-10 rounded-full blur-3xl -z-10"></div>
+<main class="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between p-6 md:p-12 gap-12">
+<!-- Left Column: Branding & Editorial Content -->
+<div class="w-full md:w-1/2 space-y-8">
+<header class="space-y-2">
+<div class="flex items-center gap-2 mb-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="restaurant">restaurant</span>
+<h1 class="text-primary font-headline font-bold text-2xl tracking-tighter">The Luminous Atrium</h1>
+</div>
+<p class="text-primary font-label text-xs font-bold tracking-[0.15rem] uppercase mb-4">Management Portal</p>
+<h2 class="text-on-background font-headline text-5xl md:text-6xl font-bold leading-tight">
+                    Refined Service,<br/>
+<span class="text-primary">Digitally Orchestrated.</span>
+</h2>
+<p class="text-on-surface-variant text-lg max-w-md mt-6 leading-relaxed">
+                    Access your dashboard to manage floors, curate seasonal menus, and oversee the culinary experience.
+                </p>
+</header>
+<div class="hidden md:block relative group">
+<div class="absolute inset-0 bg-primary-container/20 rounded-xl transform rotate-2 transition-transform group-hover:rotate-1"></div>
+<div class="relative rounded-xl overflow-hidden aspect-video shadow-xl">
+<img alt="Elegant restaurant interior with ambient lighting" class="object-cover w-full h-full grayscale-[20%] group-hover:scale-105 transition-transform duration-700" data-alt="Modern high-end restaurant dining area with natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoKq0Z4NywlDmqVY-kCkCCnNCmPfhD7yyhNVPJ9vkNTOVF6pJCVmf_ZclZFXf54w3UqSQtHWsS7QeHNtZ4bOI0TYKU7nrWNlJpvsEGe3vhfAB9cAQ4TQRyqV7Fs_PUKoolPSk25-eB6dkWRzEXqkdjnkxBvg_agAHhRvqE1yxerjQa4kXbGnvHcJy_I80xBoAlbNgC0Jph9S4oXqEnXczhnlEioSVK-2OymToCq_9JJ-fUmo6WQuJftm-a3o1KKTyUCOcsI_3rj4xV"/>
+</div>
+</div>
+</div>
+<!-- Right Column: Login Card -->
+<div class="w-full md:w-[440px]">
+<div class="bg-surface-container-lowest p-8 md:p-10 rounded-xl shadow-[0_12px_40px_rgba(26,28,28,0.06)] border border-outline-variant/15">
+<div class="mb-10 text-center md:text-left">
+<h3 class="text-on-background font-headline text-2xl font-semibold mb-2">Welcome Back</h3>
+<p class="text-on-surface-variant text-sm">Please enter your credentials to continue</p>
+</div>
+<form class="space-y-6">
+<!-- Username Field -->
+<div class="space-y-2">
+<label class="block font-label text-[10px] font-bold uppercase tracking-wider text-on-surface-variant" for="username">Username</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-lg" data-icon="person">person</span>
+<input class="w-full bg-surface-container-high border-none rounded-lg py-4 pl-12 pr-4 focus:ring-2 focus:ring-primary focus:bg-surface-container-lowest transition-all placeholder:text-outline/50" id="username" placeholder="e.g. m_rossi" type="text"/>
+</div>
+</div>
+<!-- Password Field -->
+<div class="space-y-2">
+<div class="flex justify-between items-end">
+<label class="block font-label text-[10px] font-bold uppercase tracking-wider text-on-surface-variant" for="password">Password</label>
+<a class="text-[10px] font-bold text-primary uppercase tracking-wider hover:underline" href="#">Forgot?</a>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-lg" data-icon="lock">lock</span>
+<input class="w-full bg-surface-container-high border-none rounded-lg py-4 pl-12 pr-12 focus:ring-2 focus:ring-primary focus:bg-surface-container-lowest transition-all placeholder:text-outline/50" id="password" placeholder="••••••••" type="password"/>
+<button class="absolute right-4 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-lg" data-icon="visibility">visibility</span>
+</button>
+</div>
+</div>
+<!-- Action Button -->
+<div class="pt-4">
+<button class="w-full signature-gradient text-on-primary font-headline font-bold py-4 rounded-lg shadow-lg shadow-primary-container/20 active:scale-[0.98] transition-all signature-gradient-hover flex items-center justify-center gap-2 group" type="submit">
+                            Sign In to Atrium
+                            <span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="flex items-center gap-4 py-2">
+<div class="h-px flex-1 bg-outline-variant/30"></div>
+<span class="text-[10px] font-bold text-outline uppercase tracking-widest">Authorized Access Only</span>
+<div class="h-px flex-1 bg-outline-variant/30"></div>
+</div>
+<button class="w-full py-3 flex items-center justify-center gap-3 border border-outline-variant/30 rounded-lg hover:bg-surface-container-low transition-colors group" type="button">
+<span class="material-symbols-outlined text-tertiary" data-icon="fingerprint">fingerprint</span>
+<span class="text-sm font-medium text-on-surface-variant group-hover:text-on-background">Biometric Login</span>
+</button>
+</form>
+</div>
+<!-- Contextual Footer (Login Screen suppressed Nav) -->
+<p class="mt-8 text-center text-on-surface-variant text-xs opacity-60">
+                © 2024 Y0 Restaurant Group. <br/>
+                All rights reserved. Secure Environment.
+            </p>
+</div>
+</main>
+<!-- Subtle Floating Decoration -->
+<div class="absolute bottom-0 left-0 p-12 hidden lg:block">
+<div class="flex items-center gap-4 text-primary-fixed-dim">
+<span class="material-symbols-outlined text-4xl" data-icon="stars">stars</span>
+<div class="h-10 w-px bg-primary-fixed-dim/30"></div>
+<p class="text-[10px] font-bold uppercase tracking-[0.2em] leading-tight">
+                Michelin Partner<br/>Standard 2024
+            </p>
+</div>
+</div>
+</body></html>

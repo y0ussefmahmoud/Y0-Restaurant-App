@@ -1,0 +1,87 @@
+name: y0_restaurant_app
+description: "Y0 Restaurant App - A comprehensive restaurant management system."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.3.6
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # PDF & Printing
+  pdf: ^3.11.1
+  printing: ^5.13.0
+
+  # Localization
+  intl: ^0.20.2
+
+  # Storage
+  shared_preferences: ^2.3.3
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+
+  # Fonts will be configured in Phase 2
+  # fonts:
+  #   - family: Plus Jakarta Sans
+  #     fonts:
+  #       - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/PlusJakartaSans-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/PlusJakartaSans-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/PlusJakartaSans-ExtraBold.ttf
+  #         weight: 800
+
+  #   - family: Be Vietnam Pro
+  #     fonts:
+  #       - asset: assets/fonts/BeVietnamPro-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/BeVietnamPro-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/BeVietnamPro-SemiBold.ttf
+  #         weight: 600
+
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Cairo-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #         weight: 700

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Billing &amp; Payment | The Luminous Atrium</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error": "#ba1a1a",
+              "primary-container": "#ffab00",
+              "on-primary-fixed": "#291800",
+              "surface-container-low": "#f3f3f3",
+              "on-background": "#1a1c1c",
+              "surface-container-high": "#e8e8e8",
+              "tertiary": "#006781",
+              "on-tertiary-fixed": "#001f29",
+              "on-tertiary": "#ffffff",
+              "primary-fixed": "#ffddb3",
+              "outline-variant": "#d7c3ac",
+              "on-error-container": "#93000a",
+              "tertiary-container": "#00ccfe",
+              "on-primary-container": "#694400",
+              "on-secondary": "#ffffff",
+              "tertiary-fixed-dim": "#5bd4ff",
+              "secondary-fixed-dim": "#eebe7e",
+              "outline": "#857460",
+              "surface-variant": "#e2e2e2",
+              "background": "#f9f9f9",
+              "on-error": "#ffffff",
+              "surface-container-highest": "#e2e2e2",
+              "surface-bright": "#f9f9f9",
+              "on-surface-variant": "#524433",
+              "on-secondary-container": "#78551f",
+              "secondary": "#7b5821",
+              "on-surface": "#1a1c1c",
+              "surface-dim": "#dadada",
+              "inverse-surface": "#2f3131",
+              "primary": "#825500",
+              "secondary-container": "#fdcc8b",
+              "on-tertiary-fixed-variant": "#004d62",
+              "on-primary": "#ffffff",
+              "on-tertiary-container": "#005269",
+              "inverse-on-surface": "#f0f1f1",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary-fixed-variant": "#60400b",
+              "inverse-primary": "#ffb950",
+              "on-primary-fixed-variant": "#624000",
+              "tertiary-fixed": "#baeaff",
+              "surface-container": "#eeeeee",
+              "primary-fixed-dim": "#ffb950",
+              "surface-tint": "#825500",
+              "surface": "#f9f9f9",
+              "on-secondary-fixed": "#291800",
+              "error-container": "#ffdad6",
+              "secondary-fixed": "#ffddb3"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .signature-gradient {
+            background: linear-gradient(135deg, #825500 0%, #FFAB00 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface min-h-screen pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#F9F9F9] dark:bg-slate-900">
+<div class="flex items-center justify-between px-6 py-4 w-full">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[#825500] dark:text-[#FFAB00]" data-icon="restaurant">restaurant</span>
+<h1 class="font-['Plus_Jakarta_Sans'] font-bold text-xl tracking-tighter text-[#825500] dark:text-[#FFAB00]">The Luminous Atrium</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#1A1C1C] opacity-70 hover:bg-[#F3F3F3] transition-colors p-2 rounded-full" data-icon="search">search</button>
+<button class="material-symbols-outlined text-[#1A1C1C] opacity-70 hover:bg-[#F3F3F3] transition-colors p-2 rounded-full" data-icon="notifications">notifications</button>
+</div>
+</div>
+<div class="bg-[#F3F3F3] dark:bg-slate-800 h-px w-full"></div>
+</header>
+<main class="pt-24 px-6 max-w-7xl mx-auto">
+<!-- Header Section with Intentional Asymmetry -->
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+<div class="max-w-xl">
+<p class="font-['Plus_Jakarta_Sans'] text-[0.75rem] font-bold uppercase tracking-wider text-primary mb-2">Final Settlement</p>
+<h2 class="text-4xl md:text-5xl font-bold tracking-tight text-on-surface">Invoice &amp; Billing</h2>
+<p class="mt-4 text-on-surface-variant leading-relaxed">Review the curated selection of your evening's experience. Taxes and service fees are calculated based on premium service standards.</p>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-outline-variant/30 text-primary font-medium hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="print">print</span>
+                    Print
+                </button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-lg border border-outline-variant/30 text-primary font-medium hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="download">download</span>
+                    PDF
+                </button>
+</div>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Order Summary: Large Left Column -->
+<div class="lg:col-span-8 space-y-6">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_12px_40px_rgba(26,28,28,0.06)]">
+<div class="flex items-center justify-between mb-8">
+<h3 class="text-xl font-bold text-on-surface">Table 14 • Order Summary</h3>
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed-variant text-xs font-bold rounded-full uppercase tracking-widest">Active Stay</span>
+</div>
+<!-- Items List -->
+<div class="space-y-0">
+<div class="flex items-center justify-between py-6 border-b border-outline-variant/10 hover:bg-surface-container-low/30 transition-colors px-4 -mx-4 rounded-lg">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden bg-surface-container">
+<img alt="Heirloom Tomato Salad" class="w-full h-full object-cover" data-alt="Close up of a gourmet tomato salad" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDS3VfBTJayG7OcpKkzXC3q6u0VqeQDBk7XqMkdHD8vdWNf8txZQrl-schc5KFYPPLGXK56kD8As9voRpnTitNaG3dPKpMxt9J-Mx5tvX3ziSetSocCe0_gQfxw2deMtHiWAa9pjBHvkYhyVU_yHVKSxmfWqhP6lWXaLKIqMOns8QuEZFOfTg_cAC_8pnRK_EzYJZBJTr6_pfwsfCFfPE122Y8haYELyFMzMnnFaMbTr9tsODh5iXkRjcUsFjIUaCwNwAtLu9Ic-66d"/>
+</div>
+<div>
+<p class="font-bold text-on-surface">Heirloom Tomato &amp; Basil Silk</p>
+<p class="text-sm text-on-surface-variant">Signature Appetizer</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-on-surface">$24.00</p>
+<p class="text-xs text-on-surface-variant">Qty: 1</p>
+</div>
+</div>
+<div class="flex items-center justify-between py-6 border-b border-outline-variant/10 hover:bg-surface-container-low/30 transition-colors px-4 -mx-4 rounded-lg">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden bg-surface-container">
+<img alt="Wagyu Beef Strips" class="w-full h-full object-cover" data-alt="Slices of grilled wagyu beef" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXVxgGIUS6IlJKcEhXpExBqnNGZWsSynqmqyO_qmnu6jRBQorL3_VJJDFcF08CHd1VHruvpGyRdadRwse9cLUnFXFSTtMjG_pQO-vKSaz8Rfczv6JxrvV9oX9YDUi10ErqFzgZimX67a_9XMZu9oEP74xhm0wtdlOXprc6PbnF2KyASgRyZ7FrN72FEsc-FNCbX7AkPBNBZra6UPlzWGOP3nN9JQCV1VUcgiLWnTPbJMqRqPZFsJAWOhdV3cFHqB_K-beDsgN4XNsa"/>
+</div>
+<div>
+<p class="font-bold text-on-surface">Miyazaki Wagyu Striploin</p>
+<p class="text-sm text-on-surface-variant">Main Course • Medium Rare</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-on-surface">$145.00</p>
+<p class="text-xs text-on-surface-variant">Qty: 1</p>
+</div>
+</div>
+<div class="flex items-center justify-between py-6 border-b border-outline-variant/10 hover:bg-surface-container-low/30 transition-colors px-4 -mx-4 rounded-lg">
+<div class="flex items-center gap-4">
+<div class="w-16 h-16 rounded-lg overflow-hidden bg-surface-container">
+<img alt="Vintage Wine" class="w-full h-full object-cover" data-alt="Pouring red wine into a crystal glass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCT0NTFD8RGyqs3C7gsP9hEeegmvcY0mKn_4iSt_g2F5KKDwZLX1thCDWivmqzZ0u47TTXY3eBqnbAbMsoa4WpZShaN8n5fqx0eov8Oc6dlpBchB5nOe1w1OAIFQ34ISNkNG7wsXDFOhcKeGKojTgfBkz99jK8SSojghny5aJJUs_NGd4QureJzR2Me46HMRbXP1p7fKmI87u9xBQ5ZqiTicugWimxsrwycjBZI50goNRcIzy2X9fh5RzR2ZofCU_HKgG0Yv5BGa-dE"/>
+</div>
+<div>
+<p class="font-bold text-on-surface">Château Margaux 2015</p>
+<p class="text-sm text-on-surface-variant">Cellar Selection • Glass</p>
+</div>
+</div>
+<div class="text-right">
+<p class="font-bold text-on-surface">$85.00</p>
+<p class="text-xs text-on-surface-variant">Qty: 2</p>
+</div>
+</div>
+</div>
+<!-- Receipt Sub-details -->
+<div class="mt-10 p-6 bg-surface-container-low rounded-xl flex flex-col gap-3">
+<div class="flex justify-between text-on-surface-variant">
+<span>Subtotal</span>
+<span class="font-medium text-on-surface">$339.00</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Hospitality Fee (12%)</span>
+<span class="font-medium text-on-surface">$40.68</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Luxury Tax (8.5%)</span>
+<span class="font-medium text-on-surface">$28.81</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Payment & Totals: Right Column -->
+<div class="lg:col-span-4 space-y-6">
+<!-- Total Card -->
+<div class="signature-gradient p-8 rounded-xl text-white shadow-xl">
+<p class="text-white/70 text-sm font-bold uppercase tracking-widest mb-1">Total Amount Due</p>
+<h3 class="text-5xl font-extrabold tracking-tighter">$408.49</h3>
+<div class="mt-6 pt-6 border-t border-white/20 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-white/80" data-icon="credit_card">credit_card</span>
+<span class="text-sm font-medium">VISA •••• 4242</span>
+</div>
+<span class="text-xs px-2 py-0.5 bg-white/20 rounded uppercase font-bold">Selected</span>
+</div>
+</div>
+<!-- Payment Methods Section -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_12px_40px_rgba(26,28,28,0.06)]">
+<h4 class="text-sm font-bold uppercase tracking-widest text-on-surface-variant mb-6">Payment Method</h4>
+<div class="space-y-3">
+<label class="flex items-center justify-between p-4 rounded-lg border-2 border-primary-container bg-primary-fixed/10 cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="account_balance_wallet">account_balance_wallet</span>
+<div>
+<p class="font-bold text-on-surface leading-none">Apple Pay</p>
+<p class="text-xs text-on-surface-variant mt-1">Instant &amp; Secure</p>
+</div>
+</div>
+<input checked="" class="text-primary focus:ring-primary h-4 w-4" name="payment" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-4 rounded-lg border border-outline-variant/20 hover:bg-surface-container-low transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="credit_card">credit_card</span>
+<div>
+<p class="font-bold text-on-surface leading-none">Credit Card</p>
+<p class="text-xs text-on-surface-variant mt-1">Visa, Master, Amex</p>
+</div>
+</div>
+<input class="text-primary focus:ring-primary h-4 w-4" name="payment" type="radio"/>
+</label>
+<label class="flex items-center justify-between p-4 rounded-lg border border-outline-variant/20 hover:bg-surface-container-low transition-colors cursor-pointer">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="payments">payments</span>
+<div>
+<p class="font-bold text-on-surface leading-none">Cash</p>
+<p class="text-xs text-on-surface-variant mt-1">Settled at Front Desk</p>
+</div>
+</div>
+<input class="text-primary focus:ring-primary h-4 w-4" name="payment" type="radio"/>
+</label>
+</div>
+<button class="w-full mt-8 signature-gradient text-on-primary-container font-bold py-4 rounded-lg active:scale-95 transition-transform flex items-center justify-center gap-2">
+                        Complete Payment
+                        <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+<p class="text-center text-[10px] text-on-surface-variant mt-4 uppercase tracking-widest px-4">Secure transaction encrypted via Luminous Gateway v4.2</p>
+</div>
+<!-- Quick Actions Card -->
+<div class="bg-tertiary-container/10 p-6 rounded-xl border border-tertiary-container/20">
+<div class="flex gap-4 items-start">
+<span class="material-symbols-outlined text-tertiary mt-1" data-icon="info">info</span>
+<div>
+<p class="font-bold text-on-tertiary-container">Split Billing?</p>
+<p class="text-sm text-on-tertiary-container/80 mb-3">You can split this bill between up to 4 patrons.</p>
+<button class="text-sm font-bold text-tertiary flex items-center gap-1 hover:underline">
+                                Configure Split <span class="material-symbols-outlined text-sm" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center px-4 pb-4 pt-2 bg-white/85 dark:bg-slate-900/85 backdrop-blur-md border-t border-[#D7C3AC]/15 shadow-[0_-12px_40px_rgba(26,28,28,0.06)] z-50 rounded-t-lg md:hidden">
+<a class="flex flex-col items-center justify-center text-[#1A1C1C] dark:text-slate-300 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="table_restaurant">table_restaurant</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-wider mt-1">Tables</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1C1C] dark:text-slate-300 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-wider mt-1">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#1A1C1C] dark:text-slate-300 opacity-60 hover:opacity-100 transition-opacity active:scale-90 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="outdoor_grill">outdoor_grill</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-wider mt-1">Kitchen</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#FFAB00] text-[#694400] rounded-xl px-4 py-1 active:scale-90 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="receipt_long">receipt_long</span>
+<span class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold uppercase tracking-wider mt-1">Orders</span>
+</a>
+</nav>
+<!-- Floating Action Button suppressed as per context -->
+</body></html>

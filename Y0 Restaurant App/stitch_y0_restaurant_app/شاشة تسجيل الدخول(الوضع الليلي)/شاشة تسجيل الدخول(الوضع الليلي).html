@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;family=Cairo:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#642600",
+              "surface-container-lowest": "#000000",
+              "error-container": "#b92902",
+              "on-primary-fixed": "#331f00",
+              "surface-tint": "#ffbd5c",
+              "on-tertiary-container": "#321000",
+              "secondary": "#e5e2e1",
+              "background": "#0e0e0e",
+              "on-surface-variant": "#adaaaa",
+              "on-error-container": "#ffd2c8",
+              "secondary-dim": "#d6d4d3",
+              "error": "#ff7351",
+              "inverse-on-surface": "#565555",
+              "on-surface": "#ffffff",
+              "tertiary-fixed": "#ff955e",
+              "on-secondary-fixed": "#403f3f",
+              "surface-container-low": "#131313",
+              "on-primary-container": "#503300",
+              "secondary-fixed-dim": "#d6d4d3",
+              "surface-variant": "#262626",
+              "tertiary": "#ff833f",
+              "on-tertiary-fixed": "#2f0e00",
+              "error-dim": "#d53d18",
+              "on-background": "#ffffff",
+              "secondary-container": "#474746",
+              "on-secondary-container": "#d2d0cf",
+              "secondary-fixed": "#e5e2e1",
+              "on-primary": "#5c3b00",
+              "primary-dim": "#ec9e00",
+              "surface-container": "#1a1a1a",
+              "tertiary-dim": "#ff7520",
+              "tertiary-container": "#fd6c00",
+              "surface-container-high": "#20201f",
+              "surface-dim": "#0e0e0e",
+              "primary": "#ffbd5c",
+              "primary-fixed-dim": "#ec9e00",
+              "inverse-surface": "#fcf9f8",
+              "outline": "#767575",
+              "primary-fixed": "#feaa00",
+              "surface-bright": "#2c2c2c",
+              "on-primary-fixed-variant": "#5b3b00",
+              "inverse-primary": "#835600",
+              "on-secondary": "#525151",
+              "surface-container-highest": "#262626",
+              "on-error": "#450900",
+              "tertiary-fixed-dim": "#ff7f36",
+              "primary-container": "#feaa00",
+              "on-tertiary": "#481900",
+              "outline-variant": "#484847",
+              "surface": "#0e0e0e",
+              "on-secondary-fixed-variant": "#5c5b5b"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Be Vietnam Pro"],
+              "arabic": ["Cairo"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .glass-panel {
+        background: rgba(26, 26, 26, 0.7);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .amber-gradient {
+        background: linear-gradient(135deg, #ffbd5c 0%, #feaa00 100%);
+      }
+      input:focus {
+        box-shadow: 0 0 0 4px rgba(255, 189, 92, 0.15);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30 min-h-screen flex items-center justify-center overflow-hidden">
+<!-- Background Layer -->
+<div class="fixed inset-0 z-0">
+<img alt="Luxury restaurant interior with moody lighting" class="w-full h-full object-cover brightness-[0.3]" data-alt="Modern dark restaurant interior with warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-56vPlgLTu77Wq6t7qXPoeEj0rWiwP_FQPY4xWe_ZC2hR6BrlB5DhaXY05s6nCIJZIEqpklG3IS3h7H42ESqh-urUm1CIXUOBofbol9Af-eZR-Ww0V1omJQ33lzvdACjhvpTZJJPMVcIgEKSwL2YCnSpx52qczRpetlPSaI9GsVq98EwP0DSB4wc1JlH7stj51KksBifWZXXt8Ijo1chmrskG6pp3M2vmcPGnrPX7S-BxpzdfudCZ-Xrx22yMgv4r2pDaaS_lNsGu"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50"></div>
+</div>
+<!-- Main Content Canvas -->
+<main class="relative z-10 w-full max-w-md px-6 py-12 flex flex-col items-center">
+<!-- Branding Header -->
+<header class="mb-12 text-center">
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-20 h-20 glass-panel rounded-xl flex items-center justify-center mb-4 border border-outline-variant/10 group-hover:scale-105 transition-transform duration-500">
+<span class="text-primary font-headline font-black text-4xl tracking-tighter">Y0</span>
+</div>
+<h1 class="font-headline font-bold text-2xl tracking-tight text-on-surface">Y0 Restaurant</h1>
+<p class="text-on-surface-variant font-medium text-sm tracking-wide uppercase">The Digital Maître D’</p>
+</div>
+</header>
+<!-- Login Card -->
+<div class="w-full glass-panel rounded-xl p-8 shadow-[0_20px_40px_rgba(0,0,0,0.4)] border border-outline-variant/10">
+<form class="space-y-6">
+<!-- User Name Field -->
+<div class="space-y-2">
+<div class="flex justify-between items-center px-1">
+<label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">User Name</label>
+<span class="text-[10px] font-arabic font-bold text-on-surface-variant/60">اسم المستخدم</span>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-xl">person</span>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-4 pl-12 pr-4 text-on-surface placeholder:text-on-surface-variant/40 focus:ring-1 focus:ring-primary transition-all" placeholder="manager_alpha" type="text"/>
+</div>
+</div>
+<!-- Password Field -->
+<div class="space-y-2">
+<div class="flex justify-between items-center px-1">
+<label class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Password</label>
+<span class="text-[10px] font-arabic font-bold text-on-surface-variant/60">كلمة المرور</span>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-xl">lock</span>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-4 pl-12 pr-12 text-on-surface placeholder:text-on-surface-variant/40 focus:ring-1 focus:ring-primary transition-all" placeholder="••••••••" type="password"/>
+<button class="absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-xl">visibility</span>
+</button>
+</div>
+</div>
+<!-- Primary CTA -->
+<div class="pt-4 space-y-4">
+<button class="w-full amber-gradient hover:opacity-90 active:scale-[0.98] transition-all py-4 rounded-lg flex items-center justify-center gap-3 group">
+<span class="font-headline font-extrabold text-on-primary-fixed uppercase tracking-wider">Login</span>
+<span class="text-xs font-arabic font-bold text-on-primary-fixed/80">تسجيل الدخول</span>
+<span class="material-symbols-outlined text-on-primary-fixed group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<div class="flex items-center gap-4">
+<div class="h-px flex-1 bg-outline-variant/20"></div>
+<span class="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold">OR</span>
+<div class="h-px flex-1 bg-outline-variant/20"></div>
+</div>
+<!-- Secondary CTA -->
+<button class="w-full bg-surface-container-low hover:bg-surface-container-high active:scale-[0.98] transition-all py-4 rounded-lg flex items-center justify-center gap-3 border border-outline-variant/10" type="button">
+<span class="font-headline font-bold text-on-surface-variant uppercase tracking-wider text-sm">Guest Access</span>
+<span class="text-[10px] font-arabic font-bold text-on-surface-variant/60">دخول الزوار</span>
+</button>
+</div>
+</form>
+</div>
+<!-- Footer Help -->
+<footer class="mt-8 flex flex-col items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors text-xs font-bold uppercase tracking-widest flex items-center gap-2">
+<span>Forgot Password?</span>
+<span class="h-1 w-1 rounded-full bg-outline-variant"></span>
+<span class="font-arabic">نسيت كلمة المرور؟</span>
+</button>
+<div class="flex items-center gap-6 mt-4">
+<div class="flex items-center gap-2 text-[10px] font-bold text-on-surface-variant/40 uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm">language</span>
+<span>English</span>
+</div>
+<div class="flex items-center gap-2 text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm text-primary">translate</span>
+<span class="font-arabic">العربية</span>
+</div>
+</div>
+</footer>
+</main>
+<!-- Subtle Ambient Accents -->
+<div class="fixed top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] -mr-64 -mt-64"></div>
+<div class="fixed bottom-0 left-0 w-[500px] h-[500px] bg-tertiary/5 rounded-full blur-[120px] -ml-64 -mb-64"></div>
+</body></html>

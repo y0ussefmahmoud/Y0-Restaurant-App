@@ -1,0 +1,1106 @@
+{
+  "appTitle": "مطعم Y0",
+  "@appTitle": {
+    "description": "عنوان التطبيق"
+  },
+  
+  "login": "تسجيل الدخول",
+  "@login": {
+    "description": "نص زر تسجيل الدخول"
+  },
+  
+  "username": "اسم المستخدم",
+  "@username": {
+    "description": "تسمية حقل اسم المستخدم"
+  },
+  
+  "password": "كلمة المرور",
+  "@password": {
+    "description": "تسمية حقل كلمة المرور"
+  },
+  
+  "tables": "الطاولات",
+  "@tables": {
+    "description": "عنوان قسم الطاولات"
+  },
+  
+  "menu": "القائمة",
+  "@menu": {
+    "description": "عنوان قسم القائمة"
+  },
+  
+  "kitchen": "المطبخ",
+  "@kitchen": {
+    "description": "عنوان قسم المطبخ"
+  },
+  
+  "invoices": "الفواتير",
+  "@invoices": {
+    "description": "عنوان قسم الفواتير"
+  },
+  
+  "orders": "الطلبات",
+  "@orders": {
+    "description": "عنوان قسم الطلبات"
+  },
+  
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "عنوان قسم الإعدادات"
+  },
+  
+  "logout": "تسجيل الخروج",
+  "@logout": {
+    "description": "نص زر تسجيل الخروج"
+  },
+  
+  "welcome": "مرحباً",
+  "@welcome": {
+    "description": "رسالة الترحيب"
+  },
+  
+  "loading": "جاري التحميل...",
+  "@loading": {
+    "description": "نص مؤشر التحميل"
+  },
+  
+  "error": "خطأ",
+  "@error": {
+    "description": "عنوان الخطأ"
+  },
+  
+  "retry": "إعادة المحاولة",
+  "@retry": {
+    "description": "نص زر إعادة المحاولة"
+  },
+  
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "نص زر الإلغاء"
+  },
+  
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": "نص زر التأكيد"
+  },
+  
+  "save": "حفظ",
+  "@save": {
+    "description": "نص زر الحفظ"
+  },
+  
+  "delete": "حذف",
+  "@delete": {
+    "description": "نص زر الحذف"
+  },
+  
+  "edit": "تعديل",
+  "@edit": {
+    "description": "نص زر التعديل"
+  },
+  
+  "add": "إضافة",
+  "@add": {
+    "description": "نص زر الإضافة"
+  },
+  
+  "search": "البحث",
+  "@search": {
+    "description": "نص عنصر البحث"
+  },
+  
+  "filter": "تصفية",
+  "@filter": {
+    "description": "نص زر التصفية"
+  },
+  
+  "sort": "ترتيب",
+  "@sort": {
+    "description": "نص زر الترتيب"
+  },
+  
+  "total": "الإجمالي",
+  "@total": {
+    "description": "تسمية الإجمالي"
+  },
+  
+  "subtotal": "المجموع الفرعي",
+  "@subtotal": {
+    "description": "تسمية المجموع الفرعي"
+  },
+  
+  "tax": "الضريبة",
+  "@tax": {
+    "description": "تسمية الضريبة"
+  },
+  
+  "discount": "خصم",
+  "@discount": {
+    "description": "تسمية الخصم"
+  },
+  
+  "quantity": "الكمية",
+  "@quantity": {
+    "description": "تسمية الكمية"
+  },
+  
+  "price": "السعر",
+  "@price": {
+    "description": "تسمية السعر"
+  },
+  
+  "name": "الاسم",
+  "@name": {
+    "description": "تسمية الاسم"
+  },
+  
+  "email": "البريد الإلكتروني",
+  "@email": {
+    "description": "تسمية البريد الإلكتروني"
+  },
+  
+  "phone": "الهاتف",
+  "@phone": {
+    "description": "تسمية الهاتف"
+  },
+  
+  "address": "العنوان",
+  "@address": {
+    "description": "تسمية العنوان"
+  },
+  
+  "date": "التاريخ",
+  "@date": {
+    "description": "تسمية التاريخ"
+  },
+  
+  "time": "الوقت",
+  "@time": {
+    "description": "تسمية الوقت"
+  },
+  
+  "status": "الحالة",
+  "@status": {
+    "description": "تسمية الحالة"
+  },
+  
+  "active": "نشط",
+  "@active": {
+    "description": "حالة نشط"
+  },
+  
+  "inactive": "غير نشط",
+  "@inactive": {
+    "description": "حالة غير نشط"
+  },
+  
+  "pending": "في الانتظار",
+  "@pending": {
+    "description": "حالة في الانتظار"
+  },
+  
+  "completed": "مكتمل",
+  "@completed": {
+    "description": "حالة مكتمل"
+  },
+  
+  "cancelled": "ملغي",
+  "@cancelled": {
+    "description": "حالة ملغي"
+  },
+  
+  "available": "متاح",
+  "@available": {
+    "description": "حالة متاح"
+  },
+  
+  "unavailable": "غير متاح",
+  "@unavailable": {
+    "description": "حالة غير متاح"
+  },
+  
+  "yes": "نعم",
+  "@yes": {
+    "description": "خيار نعم"
+  },
+  
+  "no": "لا",
+  "@no": {
+    "description": "خيار لا"
+  },
+  
+  "ok": "موافق",
+  "@ok": {
+    "description": "نص زر موافق"
+  },
+  
+  "close": "إغلاق",
+  "@close": {
+    "description": "نص زر الإغلاق"
+  },
+  
+  "back": "رجوع",
+  "@back": {
+    "description": "نص زر الرجوع"
+  },
+  
+  "next": "التالي",
+  "@next": {
+    "description": "نص زر التالي"
+  },
+  
+  "previous": "السابق",
+  "@previous": {
+    "description": "نص زر السابق"
+  },
+  
+  "first": "الأول",
+  "@first": {
+    "description": "نص الصفحة الأولى"
+  },
+  
+  "last": "الأخير",
+  "@last": {
+    "description": "نص الصفحة الأخيرة"
+  },
+  
+  "page": "صفحة",
+  "@page": {
+    "description": "تسمية صفحة"
+  },
+  
+  "of": "من",
+  "@of": {
+    "description": "فاصل مؤشر الصفحة"
+  },
+  
+  "items": "عناصر",
+  "@items": {
+    "description": "تسمية عدد العناصر"
+  },
+  
+  "item": "عنصر",
+  "@item": {
+    "description": "تسمية العنصر الواحد"
+  },
+  
+  "noDataFound": "لم يتم العثور على بيانات",
+  "@noDataFound": {
+    "description": "رسالة الحالة الفارغة"
+  },
+  
+  "noResultsFound": "لم يتم العثور على نتائج",
+  "@noResultsFound": {
+    "description": "رسالة البحث الفارغة"
+  },
+  
+  "tryAgain": "حاول مرة أخرى",
+  "@tryAgain": {
+    "description": "نص زر حاول مرة أخرى"
+  },
+  
+  "refresh": "تحديث",
+  "@refresh": {
+    "description": "نص زر التحديث"
+  },
+  
+  "download": "تحميل",
+  "@download": {
+    "description": "نص زر التحميل"
+  },
+  
+  "upload": "رفع",
+  "@upload": {
+    "description": "نص زر الرفع"
+  },
+  
+  "print": "طباعة",
+  "@print": {
+    "description": "نص زر الطباعة"
+  },
+  
+  "share": "مشاركة",
+  "@share": {
+    "description": "نص زر المشاركة"
+  },
+  
+  "copy": "نسخ",
+  "@copy": {
+    "description": "نص زر النسخ"
+  },
+  
+  "paste": "لصق",
+  "@paste": {
+    "description": "نص زر اللصق"
+  },
+  
+  "select": "اختيار",
+  "@select": {
+    "description": "نص زر الاختيار"
+  },
+  
+  "selectAll": "اختيار الكل",
+  "@selectAll": {
+    "description": "نص زر اختيار الكل"
+  },
+  
+  "clear": "مسح",
+  "@clear": {
+    "description": "نص زر المسح"
+  },
+  
+  "reset": "إعادة تعيين",
+  "@reset": {
+    "description": "نص زر إعادة التعيين"
+  },
+  
+  "apply": "تطبيق",
+  "@apply": {
+    "description": "نص زر التطبيق"
+  },
+  
+  "submit": "إرسال",
+  "@submit": {
+    "description": "نص زر الإرسال"
+  },
+  
+  "update": "تحديث",
+  "@update": {
+    "description": "نص زر التحديث"
+  },
+  
+  "create": "إنشاء",
+  "@create": {
+    "description": "نص زر الإنشاء"
+  },
+  
+  "view": "عرض",
+  "@view": {
+    "description": "نص زر العرض"
+  },
+  
+  "details": "التفاصيل",
+  "@details": {
+    "description": "نص زر التفاصيل"
+  },
+  
+  "more": "المزيد",
+  "@more": {
+    "description": "نص زر المزيد من الخيارات"
+  },
+  
+  "less": "أقل",
+  "@less": {
+    "description": "نص زر خيارات أقل"
+  },
+  
+  "expand": "توسيع",
+  "@expand": {
+    "description": "نص زر التوسيع"
+  },
+  
+  "collapse": "طي",
+  "@collapse": {
+    "description": "نص زر الطي"
+  },
+  
+  "open": "فتح",
+  "@open": {
+    "description": "نص زر الفتح"
+  },
+  
+  "start": "بدء",
+  "@start": {
+    "description": "نص زر البدء"
+  },
+  
+  "stop": "إيقاف",
+  "@stop": {
+    "description": "نص زر الإيقاف"
+  },
+  
+  "pause": "إيقاف مؤقت",
+  "@pause": {
+    "description": "نص زر الإيقاف المؤقت"
+  },
+  
+  "resume": "استئناف",
+  "@resume": {
+    "description": "نص زر الاستئناف"
+  },
+  
+  "continueAction": "متابعة",
+  "@continueAction": {
+    "description": "نص زر المتابعة"
+  },
+  
+  "finish": "إنهاء",
+  "@finish": {
+    "description": "نص زر الإنهاء"
+  },
+  
+  "complete": "إكمال",
+  "@complete": {
+    "description": "نص زر الإكمال"
+  },
+  
+  "skip": "تخطي",
+  "@skip": {
+    "description": "نص زر التخطي"
+  },
+  
+  "ignore": "تجاهل",
+  "@ignore": {
+    "description": "نص زر التجاهل"
+  },
+  
+  "accept": "قبول",
+  "@accept": {
+    "description": "نص زر القبول"
+  },
+  
+  "reject": "رفض",
+  "@reject": {
+    "description": "نص زر الرفض"
+  },
+  
+  "approve": "موافقة",
+  "@approve": {
+    "description": "نص زر الموافقة"
+  },
+  
+  "deny": "رفض",
+  "@deny": {
+    "description": "نص زر الرفض"
+  },
+  
+  "allow": "سماح",
+  "@allow": {
+    "description": "نص زر السماح"
+  },
+  
+  "block": "حظر",
+  "@block": {
+    "description": "نص زر الحظر"
+  },
+  
+  "enable": "تفعيل",
+  "@enable": {
+    "description": "نص زر التفعيل"
+  },
+  
+  "disable": "تعطيل",
+  "@disable": {
+    "description": "نص زر التعطيل"
+  },
+  
+  "show": "إظهار",
+  "@show": {
+    "description": "نص زر الإظهار"
+  },
+  
+  "hide": "إخفاء",
+  "@hide": {
+    "description": "نص زر الإخفاء"
+  },
+  
+  "visible": "مرئي",
+  "@visible": {
+    "description": "حالة مرئي"
+  },
+  
+  "hidden": "مخفي",
+  "@hidden": {
+    "description": "حالة مخفي"
+  },
+  
+  "public": "عام",
+  "@public": {
+    "description": "حالة عام"
+  },
+  
+  "private": "خاص",
+  "@private": {
+    "description": "حالة خاص"
+  },
+  
+  "internal": "داخلي",
+  "@internal": {
+    "description": "حالة داخلي"
+  },
+  
+  "external": "خارجي",
+  "@external": {
+    "description": "حالة خارجي"
+  },
+  
+  "local": "محلي",
+  "@local": {
+    "description": "حالة محلي"
+  },
+  
+  "remote": "بعيد",
+  "@remote": {
+    "description": "حالة بعيد"
+  },
+  
+  "online": "متصل",
+  "@online": {
+    "description": "حالة متصل"
+  },
+  
+  "offline": "غير متصل",
+  "@offline": {
+    "description": "حالة غير متصل"
+  },
+  
+  "connected": "متصل",
+  "@connected": {
+    "description": "حالة متصل"
+  },
+  
+  "disconnected": "منقطع",
+  "@disconnected": {
+    "description": "حالة منقطع"
+  },
+  
+  "syncing": "جاري المزامنة",
+  "@syncing": {
+    "description": "حالة جاري المزامنة"
+  },
+  
+  "synced": "تمت المزامنة",
+  "@synced": {
+    "description": "حالة تمت المزامنة"
+  },
+  
+  "unsynced": "لم تتم المزامنة",
+  "@unsynced": {
+    "description": "حالة لم تتم المزامنة"
+  },
+  
+  "draft": "مسودة",
+  "@draft": {
+    "description": "حالة مسودة"
+  },
+  
+  "published": "منشور",
+  "@published": {
+    "description": "حالة منشور"
+  },
+  
+  "archived": "مؤرشف",
+  "@archived": {
+    "description": "حالة مؤرشف"
+  },
+  
+  "deleted": "محذوف",
+  "@deleted": {
+    "description": "حالة محذوف"
+  },
+  
+  "restored": "مستعاد",
+  "@restored": {
+    "description": "حالة مستعاد"
+  },
+  
+  "imported": "مستورد",
+  "@imported": {
+    "description": "حالة مستورد"
+  },
+  
+  "exported": "مُصدّر",
+  "@exported": {
+    "description": "حالة مُصدّر"
+  },
+  
+  "importing": "جاري الاستيراد",
+  "@importing": {
+    "description": "حالة جاري الاستيراد"
+  },
+  
+  "exporting": "جاري التصدير",
+  "@exporting": {
+    "description": "حالة جاري التصدير"
+  },
+  
+  "processing": "جاري المعالجة",
+  "@processing": {
+    "description": "حالة جاري المعالجة"
+  },
+  
+  "processed": "تمت المعالجة",
+  "@processed": {
+    "description": "حالة تمت المعالجة"
+  },
+  
+  "failed": "فشل",
+  "@failed": {
+    "description": "حالة فشل"
+  },
+  
+  "success": "نجح",
+  "@success": {
+    "description": "حالة نجح"
+  },
+  
+  "warning": "تحذير",
+  "@warning": {
+    "description": "حالة تحذير"
+  },
+  
+  "info": "معلومات",
+  "@info": {
+    "description": "حالة معلومات"
+  },
+  
+  "debug": "تصحيح",
+  "@debug": {
+    "description": "حالة تصحيح"
+  },
+  
+  "trace": "تتبع",
+  "@trace": {
+    "description": "حالة تتبع"
+  },
+  
+  "critical": "حرج",
+  "@critical": {
+    "description": "حالة حرج"
+  },
+  
+  "high": "عالي",
+  "@high": {
+    "description": "أولوية عالية"
+  },
+  
+  "medium": "متوسط",
+  "@medium": {
+    "description": "أولوية متوسطة"
+  },
+  
+  "low": "منخفض",
+  "@low": {
+    "description": "أولوية منخفضة"
+  },
+  
+  "normal": "عادي",
+  "@normal": {
+    "description": "أولوية عادية"
+  },
+  
+  "urgent": "عاجل",
+  "@urgent": {
+    "description": "أولوية عاجلة"
+  },
+  
+  "important": "مهم",
+  "@important": {
+    "description": "أولوية مهمة"
+  },
+  
+  "optional": "اختياري",
+  "@optional": {
+    "description": "أولوية اختيارية"
+  },
+  
+  "required": "مطلوب",
+  "@required": {
+    "description": "أولوية مطلوبة"
+  },
+  
+  "mandatory": "إلزامي",
+  "@mandatory": {
+    "description": "أولوية إلزامية"
+  },
+  
+  "recommended": "موصى به",
+  "@recommended": {
+    "description": "أولوية موصى بها"
+  },
+  
+  "suggested": "مقترح",
+  "@suggested": {
+    "description": "أولوية مقترحة"
+  },
+  
+  "defaultOption": "افتراضي",
+  "@defaultOption": {
+    "description": "خيار افتراضي"
+  },
+  
+  "custom": "مخصص",
+  "@custom": {
+    "description": "خيار مخصص"
+  },
+  
+  "other": "آخر",
+  "@other": {
+    "description": "خيار آخر"
+  },
+  
+  "none": "لا شيء",
+  "@none": {
+    "description": "خيار لا شيء"
+  },
+  
+  "all": "الكل",
+  "@all": {
+    "description": "خيار الكل"
+  },
+  
+  "any": "أي",
+  "@any": {
+    "description": "خيار أي"
+  },
+  
+  "some": "بعض",
+  "@some": {
+    "description": "خيار بعض"
+  },
+  
+  "many": "العديد",
+  "@many": {
+    "description": "خيار العديد"
+  },
+  
+  "few": "قليل",
+  "@few": {
+    "description": "خيار قليل"
+  },
+  
+  "several": "عدة",
+  "@several": {
+    "description": "خيار عدة"
+  },
+  
+  "multiple": "متعدد",
+  "@multiple": {
+    "description": "خيار متعدد"
+  },
+  
+  "single": "واحد",
+  "@single": {
+    "description": "خيار واحد"
+  },
+  
+  "double": "مزدوج",
+  "@double": {
+    "description": "خيار مزدوج"
+  },
+  
+  "triple": "ثلاثي",
+  "@triple": {
+    "description": "خيار ثلاثي"
+  },
+  
+  "today": "اليوم",
+  "@today": {
+    "description": "تسمية اليوم"
+  },
+  
+  "yesterday": "أمس",
+  "@yesterday": {
+    "description": "تسمية أمس"
+  },
+  
+  "tomorrow": "غداً",
+  "@tomorrow": {
+    "description": "تسمية غداً"
+  },
+  
+  "thisWeek": "هذا الأسبوع",
+  "@thisWeek": {
+    "description": "تسمية هذا الأسبوع"
+  },
+  
+  "lastWeek": "الأسبوع الماضي",
+  "@lastWeek": {
+    "description": "تسمية الأسبوع الماضي"
+  },
+  
+  "nextWeek": "الأسبوع القادم",
+  "@nextWeek": {
+    "description": "تسمية الأسبوع القادم"
+  },
+  
+  "thisMonth": "هذا الشهر",
+  "@thisMonth": {
+    "description": "تسمية هذا الشهر"
+  },
+  
+  "lastMonth": "الشهر الماضي",
+  "@lastMonth": {
+    "description": "تسمية الشهر الماضي"
+  },
+  
+  "nextMonth": "الشهر القادم",
+  "@nextMonth": {
+    "description": "تسمية الشهر القادم"
+  },
+  
+  "thisYear": "هذا العام",
+  "@thisYear": {
+    "description": "تسمية هذا العام"
+  },
+  
+  "lastYear": "العام الماضي",
+  "@lastYear": {
+    "description": "تسمية العام الماضي"
+  },
+  
+  "nextYear": "العام القادم",
+  "@nextYear": {
+    "description": "تسمية العام القادم"
+  },
+  
+  "now": "الآن",
+  "@now": {
+    "description": "تسمية الآن"
+  },
+  
+  "later": "لاحقاً",
+  "@later": {
+    "description": "تسمية لاحقاً"
+  },
+  
+  "soon": "قريباً",
+  "@soon": {
+    "description": "تسمية قريباً"
+  },
+  
+  "never": "أبداً",
+  "@never": {
+    "description": "تسمية أبداً"
+  },
+  
+  "always": "دائماً",
+  "@always": {
+    "description": "تسمية دائماً"
+  },
+  
+  "sometimes": "أحياناً",
+  "@sometimes": {
+    "description": "تسمية أحياناً"
+  },
+  
+  "rarely": "نادراً",
+  "@rarely": {
+    "description": "تسمية نادراً"
+  },
+  
+  "often": "غالباً",
+  "@often": {
+    "description": "تسمية غالباً"
+  },
+  
+  "frequently": "بشكل متكرر",
+  "@frequently": {
+    "description": "تسمية بشكل متكرر"
+  },
+  
+  "occasionally": "أحياناً",
+  "@occasionally": {
+    "description": "تسمية أحياناً"
+  },
+  
+  "daily": "يومياً",
+  "@daily": {
+    "description": "تسمية يومياً"
+  },
+  
+  "weekly": "أسبوعياً",
+  "@weekly": {
+    "description": "تسمية أسبوعياً"
+  },
+  
+  "monthly": "شهرياً",
+  "@monthly": {
+    "description": "تسمية شهرياً"
+  },
+  
+  "yearly": "سنوياً",
+  "@yearly": {
+    "description": "تسمية سنوياً"
+  },
+  
+  "hourly": "كل ساعة",
+  "@hourly": {
+    "description": "تسمية كل ساعة"
+  },
+  
+  "minute": "دقيقة",
+  "@minute": {
+    "description": "تسمية دقيقة"
+  },
+  
+  "hour": "ساعة",
+  "@hour": {
+    "description": "تسمية ساعة"
+  },
+  
+  "day": "يوم",
+  "@day": {
+    "description": "تسمية يوم"
+  },
+  
+  "week": "أسبوع",
+  "@week": {
+    "description": "تسمية أسبوع"
+  },
+  
+  "month": "شهر",
+  "@month": {
+    "description": "تسمية شهر"
+  },
+  
+  "year": "عام",
+  "@year": {
+    "description": "تسمية عام"
+  },
+  
+  "second": "ثانية",
+  "@second": {
+    "description": "تسمية ثانية"
+  },
+  
+  "milliseconds": "ميلي ثانية",
+  "@milliseconds": {
+    "description": "تسمية ميلي ثانية"
+  },
+  
+  "seconds": "ثواني",
+  "@seconds": {
+    "description": "تسمية ثواني"
+  },
+  
+  "minutes": "دقائق",
+  "@minutes": {
+    "description": "تسمية دقائق"
+  },
+  
+  "hours": "ساعات",
+  "@hours": {
+    "description": "تسمية ساعات"
+  },
+  
+  "days": "أيام",
+  "@days": {
+    "description": "تسمية أيام"
+  },
+  
+  "weeks": "أسابيع",
+  "@weeks": {
+    "description": "تسمية أسابيع"
+  },
+  
+  "months": "أشهر",
+  "@months": {
+    "description": "تسمية أشهر"
+  },
+  
+  "years": "أعوام",
+  "@years": {
+    "description": "تسمية أعوام"
+  },
+  
+  "ago": "مضى",
+  "@ago": {
+    "description": "لاحقة الوقت الماضي"
+  },
+  
+  "remaining": "متبقي",
+  "@remaining": {
+    "description": "لاحقة الوقت المتبقي"
+  },
+  
+  "left": "متبقي",
+  "@left": {
+    "description": "لاحقة الوقت المتبقي"
+  },
+  
+  "overdue": "متأخر",
+  "@overdue": {
+    "description": "حالة متأخر"
+  },
+  
+  "upcoming": "قادم",
+  "@upcoming": {
+    "description": "حالة قادم"
+  },
+  
+  "past": "ماضي",
+  "@past": {
+    "description": "حالة ماضي"
+  },
+  
+  "future": "مستقبل",
+  "@future": {
+    "description": "حالة مستقبل"
+  },
+  
+  "current": "حالي",
+  "@current": {
+    "description": "حالة حالي"
+  },
+  
+  "previous": "السابق",
+  "@previous": {
+    "description": "حالة السابق"
+  },
+  
+  "next": "التالي",
+  "@next": {
+    "description": "حالة التالي"
+  },
+  
+  "first": "الأول",
+  "@first": {
+    "description": "المركز الأول"
+  },
+  
+  "second": "الثاني",
+  "@second": {
+    "description": "المركز الثاني"
+  },
+  
+  "third": "الثالث",
+  "@third": {
+    "description": "المركز الثالث"
+  },
+  
+  "fourth": "الرابع",
+  "@fourth": {
+    "description": "المركز الرابع"
+  },
+  
+  "fifth": "الخامس",
+  "@fifth": {
+    "description": "المركز الخامس"
+  },
+  
+  "sixth": "السادس",
+  "@sixth": {
+    "description": "المركز السادس"
+  },
+  
+  "seventh": "السابع",
+  "@seventh": {
+    "description": "المركز السابع"
+  },
+  
+  "eighth": "الثامن",
+  "@eighth": {
+    "description": "المركز الثامن"
+  },
+  
+  "ninth": "التاسع",
+  "@ninth": {
+    "description": "المركز التاسع"
+  },
+  
+  "tenth": "العاشر",
+  "@tenth": {
+    "description": "المركز العاشر"
+  }
+}
